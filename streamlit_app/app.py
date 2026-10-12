@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.express as px
 import json
 import av
+from pathlib import Path
 
 from PIL import Image
 from ultralytics import YOLO
@@ -21,10 +22,10 @@ st.set_page_config(
 # =====================================================
 # LOAD MODEL
 # =====================================================
-
+ROOT_DIR = Path(__file__).resolve().parent.parent
 @st.cache_resource
 def load_model():
-    return YOLO("C:\\Projects\\welding-defect-detection\\models\\best.pt")
+    return YOLO(str(ROOT_DIR / "models" / "best.pt"))
 
 model = load_model()
 
