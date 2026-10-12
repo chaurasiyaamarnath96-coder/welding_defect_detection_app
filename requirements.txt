@@ -1,0 +1,15 @@
+ultralytics
+fastapi
+uvicorn
+streamlit
+opencv-python
+pillow
+requests
+python-multipart
+av
+streamlit-webrtc
+pillow
+opencv-python
+plotly
+ultralytics
+pandas
