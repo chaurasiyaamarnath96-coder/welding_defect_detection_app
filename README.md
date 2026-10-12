@@ -160,7 +160,7 @@ http://127.0.0.1:8000/docs
 streamlit run streamlit_app.py
 Application URL:
 
-http://localhost:8501
+https://weldingdefectdetectionapp-a8bnbvcc8tapuqcjcd5ccb.streamlit.app/
 📈 Future Improvements
 Defect Severity Analysis
 Multi-Class Welding Defect Detection
