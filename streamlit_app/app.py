@@ -67,7 +67,7 @@ st.markdown(
 )
 
 st.markdown(
-    "<div class='sub-title'>YOLOv8 Industrial Inspection Dashboard</div>",
+    "<div class='sub-title'>YOLOv11 Industrial Inspection Dashboard</div>",
     unsafe_allow_html=True
 )
 
